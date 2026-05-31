@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+        #btn{
+            margin: 10px;
+            background-color: aquamarine;
+            height: 50px;
+            width: 100px;
+            border-radius: 5px;
+        }
+        #button:hover{
+            background-color: beige;
+            cursor: pointer;
+        }
+        #button:active{
+            background-color: black;
+            color: tomato;
+
+
+        }
+    </style>
+</head>
+<body>
+    <DIV class="container">
+        <img id="image" src="https://miro.medium.com/v2/resize:fit:1400/1*x0d41ns8PTQZz4a3VbMrBg.png" alt="" style="height: 200px;width: 300px;">
+        <br><br>
+        <button id="btn" onclick="ChangeReact()">React</button>
+        <button id="btn" onclick="ChangeAngular()">Angular</button>
+    </DIV>
+    <script>
+        function ChangeAngular(){
+            let imageref=document.getElementById("image");
+            imageref.setAttribute('src','https://www.esenceweb.com/backend/uploads/angular-framework-tutorial-for-absolute-beginners.png')
+        }
+        function ChangeReact(){
+           let imageref=document.getElementById("image");
+            imageref.setAttribute('src','https://miro.medium.com/v2/resize:fit:1400/1*x0d41ns8PTQZz4a3VbMrBg.png')
+        }
+    </script>
+</body>
+</html>
