@@ -1,0 +1,33 @@
+.calculator{
+    padding:20px;
+    border-radius:10px;
+    height:400px;
+    width:400px;
+    margin:0 auto;
+    background-color:#b6a1a1;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.display-box{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:14px;
+    height:65%;
+    width:98%;
+    background-color:#fff;
+    border-radius:10px;
+}
+#btn{
+    background-color:#4CAF50;
+}
+
+input[type="button"]{
+    width:90%;
+    height:50px;
+    margin:5px;
+    font-size:18px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+input[type="button"]:active{
+    background-color:#f29579;
+}

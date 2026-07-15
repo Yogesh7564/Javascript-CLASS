@@ -1,0 +1,32 @@
+main{
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+}
+.container{
+    text-align:center;
+}
+.container h1{
+    background-color:#222;
+    color:#fff;
+    padding:10px;
+    border-radius :10px;
+    margin-bottom: 25px;
+
+}
+.btn-hero{
+    background-color:#222;
+    color:#fff;
+    text-transform:uppercase;
+    padding:10px 20px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+
+}
+.btn-hero:hover{
+    background-color:#fff;
+    color:#222;
+    transition:0.3s ease-in-out;
+    border:1px solid #222;
+}
